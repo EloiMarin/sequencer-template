@@ -1,6 +1,9 @@
 {
   "name": "sequencer-template",
   "version": "0.1.0",
+  "author": "Eloi Marín Gratacós <eloi@emgware.com>",
+  "description": "Toy sequencer project to demonstrate my personal view on the architecture of React applications.",
+  "homepage": "https://github.com/EloiMarin/sequencer-template",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -13,8 +16,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "typescript": "^4.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
