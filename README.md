@@ -1,6 +1,6 @@
 # Sequencer-template
 
-This is a toy Web Audio sequencer project which showcases my architectural approach to React applications.
+This is a toy Web Audio sequencer project which showcases my architectural approach to React applications. The project is deployed in [https://sequencer-template.emgware.com](https://sequencer-template.emgware.com).
 
 It consists just of a single button which controls play/stop of a sequencer with a fixed bar consisting of kick, snare and hihat. The behaviour of the button already reflects a bidirectional communication between React and the core business logic, all other interactions would be extensions of the same pattern.
 

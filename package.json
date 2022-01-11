@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Eloi Marín Gratacós <eloi@emgware.com>",
   "description": "Toy sequencer project to demonstrate my personal view on the architecture of React applications.",
-  "homepage": "https://github.com/EloiMarin/sequencer-template",
+  "homepage": "https://sequencer-template.emgware.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
