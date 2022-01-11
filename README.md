@@ -45,6 +45,7 @@ In my opinion, code which is able to seamlessly run across different environment
 * Tests are implemented just enough to showcase how the different parts of the application can be tested, the coverage is far from ideal due to time constraints (this is a project made in one day, just as part of the application process). Also, some tests contain hardcoded data to make them simpler (assuming fixed arrangement, etc.).
 * Of course, user interaction is limited :) That's also intentional and part of reducing the time overhead to implement more UI interaction, which should just follow the same pattern of the existing play/stop button (which already shows how a UI element can cause changes in the core business logic, and core logic state can affect the UI).
 * The architecture of the `sequencer` was not in the main focus of the project. Even though I think that's a reasonable first sketch, of course a proper sequencer would be way more complex and the current structure might not be fully scalable as is.
+* The arrangement is hardcoded between `app/sequencer/arrangement` (tracks and events) and `app/sequencer/timeline` (bpm). No surprises from a musical standpoint.
 * No need to say, no attention at all has been put into the UI design of the project 🙈.
 
 ## Available Scripts
